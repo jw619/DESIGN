@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Card Design Selector</title>
+</head>
+<body>
+
+<!-- 카드 디자인 드롭다운 메뉴 -->
+<div>
+  <label for="cardDesign">Choose a card design:</label>
+  <select id="cardDesign" onchange="showCardDesign()">
+    <option value="design1">Design 1</option>
+    <option value="design2">Design 2</option>
+    <option value="design3">Design 3</option>
+    <!-- 추가적인 카드 디자인 옵션 -->
+  </select>
+</div>
+
+<!-- 이미지가 표시될 위치 -->
+<div id="cardImageDisplay"></div>
+
+<script src="cardScript.js"></script>
+
+</body>
+</html>
