@@ -1,8 +1,8 @@
 // 각 디자인 이름에 해당하는 이미지 경로를 객체로 매핑
 const cardDesigns = {
   design1: ' Screenshot20230831154903Google.jpg',
-  design2: 'design2.png',
-  design3: 'design3.png'
+  design2: 'Screenshot20230905170203NAVER.jpg',
+  design3: 'Screenshot20240101123819NAVER.jpg'
   // 추가적인 카드 디자인 경로
 };
 
