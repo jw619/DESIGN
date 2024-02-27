@@ -17,6 +17,6 @@ function showCardDesign() {
   // div 내용을 업데이트하여 이미지를 표시
   imageDisplay.innerHTML = `<img src="${imagePath}" alt="Card Design">`;
 }
-
+document.getElementById('cardImage').src = imagePath
 // 페이지 로드 시 기본 디자인 이미지를 표시
 window.onload = showCardDesign;
